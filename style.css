@@ -1,0 +1,47 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.dropdown_button{
+background-color: dodgerblue;
+color: rgb(255, 255, 255);
+border: none;
+outline: none;
+font-size: 2em;
+padding: 14px 60px;
+border-radius: 10px;
+cursor: pointer;
+transition: 0.5s;
+opacity: 1;
+box-shadow: 5px 10px 10px rgb(255, 0, 255); 
+}
+
+.dropdown_list{
+    background-color: rgb(107, 212, 216);
+    width: 200px;
+    text-align: center;
+    display: none;
+    position: absolute;
+
+}
+
+.dropdown_list a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 14px 25px;
+}
+
+.dropdown_list a:hover{
+    background-color: darkseagreen;
+    color: black;
+    font-size: 1.5em;
+}
+
+.dropdown:hover .dropdown_list{
+    display: block;
+}
+
+.dropdown{
+    float: left;
+}
